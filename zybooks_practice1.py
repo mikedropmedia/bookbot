@@ -41,7 +41,8 @@
 #   content = file.read()
 #   print(content)
 
-with open('info.txt', 'r') as file:
-    content = file.read
-    print(content)
-    
+# with open('info.txt', 'r') as file:
+#     content = file.read
+#     print(content)
+
+# myList = [2000, 2004, 2008, 2012, 2016]
