@@ -46,3 +46,50 @@
 #     print(content)
 
 # myList = [2000, 2004, 2008, 2012, 2016]
+
+# def get_character_record(name, server, level, rank):
+#     return {
+#         "name": name,
+#         "server": server,
+#         "level": level,
+#         "rank": rank,
+#         "id": f"{name}#{server}",
+#     }
+
+# names = ["jack bronson", "jill mcarty", "john denver"]
+
+# names_dict = {}
+# for name in names:
+#     # .split() returns a list of strings
+#     # where each string is a single word from the original
+#     name_list = name.split()
+
+#     # here we update the dictionary
+#     names_dict[name_list[0]] = name_list[1]
+
+# print(names_dict)
+# # Prints: {'jack': 'bronson', 'jill': 'mcarty', 'john': 'denver'}
+
+# def count_enemies(enemy_names):
+#     enemies_dict = {}
+#     for enemy_name in enemy_names:
+#         if enemy_name in enemies_dict:
+#             enemies_dict[enemy_name] += 1
+#         else:
+#             enemies_dict[enemy_name] = 1
+#     return enemies_dict
+
+# fruit_sizes = {
+#     "apple": "small",
+#     "banana": "large",
+#     "grape": "tiny"
+# }
+
+# for name in fruit_sizes:
+#     size = fruit_sizes[name]
+#     print(f"name: {name}, size: {size}")
+
+# # name: apple, size: small
+# # name: banana, size: large
+# # name: grape, size: tiny
+
