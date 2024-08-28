@@ -660,16 +660,16 @@ then the expected output is
 8 is 40 in human years
 '''
 
-import pigAge
+# import pigAge
 
-def pigAge_converter(pig_age):
-    return pig_age * 5
+# def pigAge_converter(pig_age):
+    # return pig_age * 5
 
 # Step 1: Accept an integer input representing the age of the pig
-pig_age = int(input())
+# pig_age = int(input())
 
 # Step 2: Use the pigAge_converter function to calculate human-equivalent age
-human_age = pigAge_converter(pig_age)
+# human_age = pigAge_converter(pig_age)
 
 # Step 3: Output the result in the specified format
-print(f"{pig_age} is {human_age} in human years")
+# print(f"{pig_age} is {human_age} in human years")
