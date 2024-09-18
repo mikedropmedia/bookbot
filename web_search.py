@@ -1,3 +1,4 @@
+'''Basic web scraper'''
 import urllib.request
 
 def search(terms):

@@ -1,4 +1,4 @@
-# Tracks frequency of domains in web searches
+'''Tracks frequency of domains in web searches'''
 import web_search
 
 domains = {}
